@@ -1,0 +1,427 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+section{
+   min-height: 100VH;
+}
+.header{
+
+    padding-top: 44px;
+    background: url(/амг/bg.png) center center no-repeat;
+    min-height: 80vh;
+
+}
+.header-photos{
+    position: relative;
+
+}
+.menu{
+    display: flex;
+    justify-content: center;
+
+    padding: 5px;;
+}
+
+.menu a{
+    margin-right: 50px;
+    color: #000000;
+    text-decoration: none;
+font-size: 30px;
+font-weight: 400;
+letter-spacing: 2px;
+}
+.menu a:last-child{
+    margin: 0;
+}
+.header-text{
+    text-align: center;
+    margin-top: 50px;
+
+    
+    width: 100%;
+   
+}
+.header-text-in {
+    padding: 30px;
+    
+}
+
+
+.header-text h1{
+    color: #000000;
+font-family: Montserrat;
+font-size: 100px;
+}
+.header  p{
+    color: #000000;
+font-size: 30px;
+letter-spacing: 4.2px;
+}
+.header  button{
+    cursor: pointer;
+    font-family: Montserrat;
+    margin-top: 22px;
+    padding: 20px 80px;
+    background-color:transparent;
+    border: 2px solid #000000;
+    color: #000000;
+font-family: Montserrat;
+font-size: 18px;
+text-transform: uppercase;
+letter-spacing: 2.52px;
+transition: ease-in .25s all;
+}
+.header button:hover{
+    background-color: #fff;
+    color:black;
+    border: 2px solid black;
+}
+.header-text img{
+    width: 99%;
+    padding: 20px;
+}
+
+
+
+
+
+
+
+
+.history{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+}
+.life{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    
+}
+
+.theme-header-text{
+    width: 4000px;
+    font-size: 100px;
+    text-align: center;
+}
+.theme-header-text2{
+    width: 4000px;
+    font-size: 100px;
+    text-align: center;
+    margin-top:50px;
+    margin-bottom:50px;
+}
+#Danger {
+    margin-bottom: 20px;
+    margin-top: 150px;
+}
+#Dangertext {
+    margin-bottom: 50px;
+}
+
+.about img{
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-text{
+    justify-content: center;
+    text-align: center;
+}
+
+.about-text h2{
+    margin-top: 32px;
+    margin-bottom: 54px;
+
+    color: #000000;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 500;
+text-transform: uppercase;
+/* Text style for "WE WILL TU" */
+letter-spacing: 4.2px;
+}
+
+
+.about-text p{
+    margin-bottom: 54px;
+    color: #5b5b5c;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 400;
+/* Text style for "Lorem ipsu" */
+letter-spacing: 3.08px;
+}
+.about-text button{
+    cursor: pointer;
+    padding: 20px  84px;
+    background-color:transparent;
+    color: #000000;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.52px;
+transition: ease-in .25s all;
+}
+.about-text button:hover{
+    background-color: #000000;
+    color:#fff;
+
+}
+
+
+
+.phaun-text{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    justify-content: center;
+    text-align: center;
+}
+
+.phaun-text h2{
+    margin-top: 32px;
+    margin-bottom: 54px;
+
+    color: #000000;
+font-family: Montserrat;
+font-size: 30px;
+font-weight: 500;
+text-transform: uppercase;
+/* Text style for "WE WILL TU" */
+letter-spacing: 4.2px;
+}
+.phaun-text h3{
+ margin-top: 5px ;
+    margin-bottom: 54px;
+
+    color: #5b5b5c;
+font-family: Montserrat;
+font-size: 20px;
+font-weight: 500;
+/* Text style for "WE WILL TU" */
+letter-spacing: 2px;
+}
+
+.phaun-text p{
+    margin-bottom: 54px;
+    color: #5b5b5c;
+font-family: Montserrat;
+font-size: 22px;
+font-weight: 400;
+/* Text style for "Lorem ipsu" */
+letter-spacing: 3.08px;
+}
+.phaun-text img{
+    width: 50%;
+}
+.phaun-text button{
+    cursor: pointer;
+    padding: 20px  84px;
+    background-color:transparent;
+    color: #000000;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 2.52px;
+transition: ease-in .25s all;
+}
+.phaun-text button:hover{
+    background-color: #000000;
+    color:#fff;
+
+}
+
+.Collage{
+    margin-top: 110px;
+    text-align: center;
+
+}
+.Collage h2{
+    color: #000000;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 7.2px;
+}
+.Collage p{
+    margin-top: 36px;
+    margin-bottom: 100px;
+    color: #5b5b5c;
+font-size: 28px;
+font-weight: 500;
+letter-spacing: 4.2px;
+}
+.Collage-wrap img{
+    margin: 8px;
+
+}
+.travel{
+
+    text-align: center;
+}
+.travel p{
+    color: #5b5b5c;
+font-size: 28px;
+font-weight: 500;
+
+letter-spacing: 4.2px;
+}
+.travel  h2{
+    color: #000000;
+font-size: 32px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 7.2px;
+
+}
+.travel-text-2 h3{
+    color: #000000;
+font-size: 19px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 6px;
+}
+.travel-text-2 p{
+    color: #848484;
+font-size: 19px;
+font-weight: 400;
+line-height: 41px;
+letter-spacing: 3.8px;
+}
+.travel-text3 h3{
+    color: #000000;
+font-size: 19px;
+font-weight: 700;
+text-transform: uppercase;
+letter-spacing: 6px;
+}
+.travel-text3 p{
+
+    color: #848484;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 41px;
+    letter-spacing: 3.8px;
+    }
+.travel-wrap{
+display: flex;
+justify-content:space-around;
+align-items: center;
+
+}
+.travel-wrap button{
+    padding: 9px 29px;
+    border:none;
+    cursor: pointer;
+
+    color: #000000;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 3.2px;
+    transition: ease .25s all;
+
+    }
+    .travel-wrap button :hover{
+        background-color: #ccc;
+
+    }
+.travel-wrap p{
+    margin-top: 45px;
+    margin-bottom: 66px;
+}
+.send{
+    margin-top: 50px;
+    padding: 178px 0px;;
+    background-color: #f4f4f4;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    }
+.send-text{
+    
+    margin-right: 111px;
+}
+
+.send-text h2{
+      color: #000000;
+    font-size: 30px;
+    font-weight: 500;
+    line-height: 41px;
+    text-transform: uppercase;
+    letter-spacing: 4.2px;
+
+}
+.send-text p{
+    color: #5b5b5c;
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 2.52px;
+    }
+    input{
+        margin-right: 44px;
+        background-color:transparent;
+        padding: 19px 19px;
+        color: #3a4047;
+        font-size: 22px;
+        font-weight: 400;
+        letter-spacing: 3.08px;
+        border: 2px solid #7a7a7a;
+
+}
+form button{
+    cursor: pointer;
+
+    background-color: #3a4047;
+    padding: 19px 87px;
+    color: #ffffff;
+    font-size: 22px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 3.08px;
+    transition: ease-in 0.25s all;
+}
+
+form button:hover{
+    background-color: #fff;
+    color: #000000;
+    border: 2px solid #000
+}
+.footer{
+    margin-top: 20px;
+    text-align: center;
+    padding: 90px 90px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 6.12px;
+}
+.footermenu{
+    margin-bottom:  66px;
+
+    }
+    .footermenu a {
+        margin-right: 55px;
+        text-decoration: none;
+        font-size: 22px;
+        color:#000
+    }
+    .footermenu a:last-child{
+        margin-right: 0pxf;
+    }
+    p {
+        margin-bottom: 20px;
+    }
+    p:last-child{
+        margin-bottom: 0;
+    }
